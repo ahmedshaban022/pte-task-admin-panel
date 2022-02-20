@@ -18,9 +18,9 @@ function App() {
 
      <Navbar/>
      <Routes>
-    <Route path='/' exact element={ <DisplayUsers/>}/>
-    <Route path='/add-new-user' exact element={<AddUsers/>}/>
-    <Route path='*' exact element={<h1 className='container text-muted m-5'>Error.. 404 .Not Found </h1>}/>
+    <Route path='pte-task-admin-panel/' exact element={ <DisplayUsers/>}/>
+    <Route path='pte-task-admin-panel/add-new-user' exact element={<AddUsers/>}/>
+    <Route path='pte-task-admin-panel/*' exact element={<h1 className='container text-muted m-5'>Error.. 404 .Not Found </h1>}/>
      
    
      </Routes>    

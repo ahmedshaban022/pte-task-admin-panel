@@ -23,12 +23,12 @@ function Navbar(props) {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-              <NavLink to="/add-new-user" className="nav-link" >
+              <NavLink to="pte-task-admin-panel/add-new-user" className="nav-link" >
                 Add User
                 </NavLink>
               </li>
               <li className="nav-item">
-              <NavLink to="/" className="nav-link" >
+              <NavLink to="pte-task-admin-panel/" className="nav-link" >
                 Display Users
                 </NavLink>
               </li>
